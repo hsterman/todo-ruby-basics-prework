@@ -10,8 +10,9 @@ def argue("No")
   return "#{argue}"
 end
 
-def greeting 
-  
+def greeting("Hi") 
+  puts "Hola"
+  return "#{greeting}"
 end
 
 def return_a_value("nice")
